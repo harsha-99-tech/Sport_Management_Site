@@ -1,0 +1,45 @@
+a {
+  color: #444;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.feature-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+}
+
+.feature-card {
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+  border:2px solid red;
+  padding: 20px 60px;
+  background-color: #06172d;
+  min-width: 250px;
+  text-align: center;
+}
+
+.feature-card:hover {
+  color: #fff;
+  background-color: red;
+    cursor: pointer;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out 0.1s;
+}
+
+.feature-container {
+  padding: 50px 100px;
+}

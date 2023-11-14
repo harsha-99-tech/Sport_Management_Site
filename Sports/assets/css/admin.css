@@ -1,0 +1,15 @@
+.container-fluid{
+    background-color:#fafafa !important;
+    padding-top:50px;
+    padding-bottom:50px;
+    position: absolute;
+    top:70px;
+    bottom: 0;
+    z-index: -99;
+}
+
+
+.card{
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --primary-bg-color: #db3725;
+  --primary-title-color: #fed81b;
+  --primary-text-color: #db3725;
+  --slider-title-color: #fed81b;
+  --slider-bg-color: #fed81b;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Open-sans", sans-serif;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  background: url("../img/logo.jpg");
+  background-size: cover;
+}
+
+.primary-bg-color {
+  background-color: var(--primary-bg-color) !important;
+}
+.slider-bg-color {
+  background-color: var(--slider-bg-color) !important;
+}
+
+.primary-text-color {
+  color: var(--primary-text-color) !important;
+}
+
+.primary-title-color {
+  color: var(--primary-title-color) !important;
+}
+
+.slider-tilte-color {
+  color: var(--slider-title-color) !important;
+}
+.carousel-item img {
+  width: 100% !important;
+  height: 450px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-item img {
+    height: 400px;
+  }
+}
